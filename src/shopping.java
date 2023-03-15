@@ -7,11 +7,14 @@ public class shopping {
     /* shopping(){
         System.out.println("Dies ist der Standardkonstruktor");
     }
-        */
+
+     */
+
     //Initialisierungskonstruktor - parametrisierter Konstruktor (ähnlich Setter methode)
     shopping(float weightvalue, float pricevalue){
         weight = weightvalue;
         price = pricevalue;
+        System.out.println("Dies ist der Initialisierungskonstruktor");
     }
 
     //test method to show values from the object
